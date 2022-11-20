@@ -17,7 +17,7 @@ const user=sequelize.define("user",{
         allowNull:false
     },
 },{freezetable:true,timestamp:false});
-user.sync({force:true});
+// user.sync({force:true});
 module.exports=user;
 
 
